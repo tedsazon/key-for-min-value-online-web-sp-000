@@ -3,5 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.each do |name, numb|
-  
+  if  numb[0] < numb[1] < numb[2]
+    numb[0]
+  end
 end
